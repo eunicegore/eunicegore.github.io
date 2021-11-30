@@ -14,8 +14,8 @@ It's common for developers to create a website to show off their web-dev skills 
 - [http://lizabinante.com/](http://lizabinante.com/)
 - [http://where.coraline.codes/](http://where.coraline.codes/)
 - [http://danisaurus.github.io/](http://danisaurus.github.io/)
-- [http://www.fenslattery.com/](http://www.fenslattery.com/)
-- [https://www.heyellieday.com/](https://www.heyellieday.com/)
+- [http://www.fenslattery.com/](https://fenslattery.com/)
+- [https://www.heyellieday.com/](https://heyellieday.com/)
 - [http://car.oline.codes/](http://car.oline.codes/)
 
 ## Learning Goals:
@@ -37,10 +37,12 @@ You are only permitted to use static HTML and CSS for this project. Preprocessor
 
 This portfolio site must have the minimum four HTML files:
 
-1. `index.html`
-2. `about.html`
-3. `portfolio.html`
-4. `code-journal.html` or `hobby-blog.html`
+- `index.html` must include your name somewhere.
+
+- `about.html` should include some information about you, your interests, background or similar. Only post what you're comfortable sharing.
+
+- `portfolio.html` must include information about several projects you've completed at Ada (or elsewhere) with links to the GitHub repo if available, descriptions, images, etc.
+
 
 #### Details
 
@@ -50,15 +52,27 @@ This portfolio site must have the minimum four HTML files:
 
 `portfolio.html` must include information about the projects you've completed at Ada (or elsewhere) with links to GitHub repo if available, descriptions, images, etc.
 
-`code-journal.html` or `hobby-blog.html` should be a page with several articles or blog-style posts about either your journey/observations about programming or a hobby you enjoy.
+## Wave 1 - Basic HTML
 
 ### Required Page Layout
 
 Each page in this project must comply with the following layout requirements:
 
-- Uses at least one CSS file (likely named `style.css`)
 - Has the following tags: `<header>`, `<footer>`, and `<nav>`
 - Inside of the `<nav>`, there are links to all of the other pages
+
+## Wave 2 - Styling
+
+### Required Content
+
+- Uses at least one CSS file (likely named `style.css`)
+
+## Wave 3 - Layout
+
+### Required Content
+
+- Use at least one Flex container
+- Use at least one Grid container
 
 ### Non-Functional Requirements
 
@@ -69,6 +83,7 @@ The site should follow best practices including:
   - Run your site through an [HTML Validator](https://validator.w3.org/#validate_by_upload) and fix all errors before submitting
 
 ### Optional Enhancements
+
 - Create a `blog/` or `code-journal/` directory. Within this directory...
   - create single `html` file for each entry in your blog/journal
   - update the nav on the rest of your site to reference each entry as a sublist/subnav.
@@ -76,6 +91,7 @@ The site should follow best practices including:
 - Create any number of additional pages or directories.
 
 ### A Word of Caution
+
 A lot of developers find their initial foray into CSS frustrating. Every browser implements the CSS standard a little (or a lot) differently. Learning to manipulate elements and understand the _box model_ takes time. Layout can be especially challenging to developers new to CSS. For this project, focus on understanding the mechanics and semantics of HTML and CSS, and how the two work together.
 
 ### Optional: Deploy with GitHub Pages

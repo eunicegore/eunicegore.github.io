@@ -136,7 +136,7 @@ img{
 /* ******** cover page ****************/
 .cover {
     align-content: top;
-    background-image:url(file:///Users/eunice/Developer/projects/personal-portfolio-site/pages/images/cover-page.jpeg);
+    background-image:url(../images/cover-page.jpeg);
     background-position: center;
     height: 70vh;
     background-repeat: no-repeat;
